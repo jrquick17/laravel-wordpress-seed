@@ -1,0 +1,4 @@
+.htaccess
+
+wp-content/cache/*
+wp-config.php
