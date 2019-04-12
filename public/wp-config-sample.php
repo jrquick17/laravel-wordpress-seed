@@ -1,13 +1,4 @@
 <?php
-// BEGIN A2 CONFIG
-define('DISALLOW_FILE_EDIT', true);
-// END A2 CONFIG
-/** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
-
-/** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
-
 /**
  * The base configuration for WordPress
  *
@@ -26,12 +17,12 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  *
  * @package WordPress
  */
-define('DB_NAME',     'jrquickc_a2wp449');
-define('DB_USER',     'jrquickc_a2wp449');
-define('DB_PASSWORD', '5JU@B.7Sp1');
-define('DB_HOST',     'localhost');
-define('DB_CHARSET',  'utf8');
-define('DB_COLLATE', '');
+define('DB_NAME',     '');
+define('DB_USER',     '');
+define('DB_PASSWORD', '');
+define('DB_HOST',     '');
+define('DB_CHARSET',  '');
+define('DB_COLLATE',  '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -42,14 +33,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'u1skzy398ndgh7pm7uylpgfbd5m8esflsulp9j4jk8qoraexcvoph1fcbufzpyuk');
-define('SECURE_AUTH_KEY',  'x2uwflmuo45t3guzxswhhbs2d9vtnwbjgujphsy1wgqxl2axvkqhyfo0fvacwkt3');
-define('LOGGED_IN_KEY',    'tsdqmnvijuww57nijrwgvtrccydj6egvjg9dsule6gahpkruqugh9hyjxjnvbax5');
-define('NONCE_KEY',        'a8npmgqfmqkwkyhdpkpfepstexooj6icaixzarpotqqn7uawpqdjgkisfzjrkr6z');
-define('AUTH_SALT',        'mqz6uorrpukyacjcwnyhdhnvx5d3enp5q8ckdsbz0jmlhxa0goxcvcjtagpy5e1g');
-define('SECURE_AUTH_SALT', '6z86abs05rhvmj3zvgssxxci7gjvyxsjy0mlovtojgeinwagupwazmt2zud0vpea');
-define('LOGGED_IN_SALT',   'tsqfgbdnftxarytf64xnpkbqbz5zqmwse2oz6cxnqumknv0pk9trbyf5z2bdulwn');
-define('NONCE_SALT',       'zqhrbwo4i6bcfuyga7nw4puwqwffeci50zqwrj8nnpqfssyxiqhjovosde9fdjjs');
+define('AUTH_KEY',         '');
+define('SECURE_AUTH_KEY',  '');
+define('LOGGED_IN_KEY',    '');
+define('NONCE_KEY',        '');
+define('AUTH_SALT',        '');
+define('SECURE_AUTH_SALT', '');
+define('LOGGED_IN_SALT',   '');
+define('NONCE_SALT',       '');
 
 define('WP_HOME','http://localhost:8002/');
 define('WP_SITEURL','http://localhost:8002/');
@@ -76,7 +67,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', env('APP_DEBUG'));
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
