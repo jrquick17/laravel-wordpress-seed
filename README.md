@@ -18,7 +18,7 @@
 
 ## About ## 
 
-This is a seed for starting your own project. This utilizes [Corcel](https://github.com/corcel/corcel) to combine WordPress with the power of Laravel.
+This is a seed for starting your own project. This utilizes [Corcel](https://github.com/corcel/corcel) to combine [WordPress](https://wordpress.org) with the power of [Laravel](https://laravel.com/).
 
 ## Issues ##
                     
