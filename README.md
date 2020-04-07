@@ -12,7 +12,6 @@
 ## Index ##
 
 * [About](#about)
-* [Documentation](#documentation)
 * [Issues](#issues)
 * [Contributing](#contributing)
 
